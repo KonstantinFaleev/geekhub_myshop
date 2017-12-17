@@ -51,3 +51,9 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'acts_as_list'
+# Code style
+gem 'rubocop'
+gem 'inherited_resources', git: 'https://github.com/activeadmin/inherited_resources'
+gem 'activeadmin', git: 'https://github.com/activeadmin/activeadmin'
+gem 'devise'
+

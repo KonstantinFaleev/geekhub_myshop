@@ -1,0 +1,5 @@
+<%= product.name %>
+<br>
+<%= number_to_currency(product.price,separator: ',', unit: 'грн', format: '%n %u' ) %>
+<br>
+<%= button_to 'Add to cart', add_to_cart_product_path(product) %>
